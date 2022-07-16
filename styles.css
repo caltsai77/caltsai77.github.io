@@ -1,5 +1,62 @@
+html,
 body {
     margin: 0;
-    background: green;
+    padding: 0;
+    background: aquamarine;
     text-align: center;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: 'Times New Roman', Times, serif; */
+    /* font-family: 'Crimson Text', serif; */
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    /* justify-content: left; */
+    align-content: left;
+    align-items: left;
+    flex-direction: row;
+}
+
+li {
+    margin-right: 1em;
+    /* display: inline; */
+    font-size: 2.0em;
+    padding-bottom: 1em;
+    align-items: right;
+}
+
+.header {
+    font-size: 3em;
+    font-family: 'Crimson Text', serif;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.links {
+    font-size: 1.2em;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
 }
